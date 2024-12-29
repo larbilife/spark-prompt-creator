@@ -6,7 +6,7 @@ import {
   Linkedin, 
   Instagram, 
   Youtube,
-  PaypalIcon
+  CreditCard
 } from "lucide-react";
 
 export const AboutMe = () => {
@@ -76,7 +76,7 @@ export const AboutMe = () => {
           className="bg-[#0070BA] hover:bg-[#003087] transition-colors"
           onClick={() => window.open('https://paypal.me/yourusername', '_blank')}
         >
-          <PaypalIcon className="mr-2 h-4 w-4" />
+          <CreditCard className="mr-2 h-4 w-4" />
           Support via PayPal
         </Button>
       </div>
