@@ -46,7 +46,7 @@ export const AboutMe = () => {
   return (
     <div className="max-w-4xl mx-auto p-6 space-y-8 text-white">
       <div className="text-center space-y-4">
-        <h2 className="text-3xl font-bold">About Me</h2>
+        <h2 className="text-3xl font-bold text-white">About Me</h2>
         <p className="text-lg text-white/80">
           Hi, I'm Larbi Aboudi, a passionate developer and creator of this AI Prompt Generator. 
           I specialize in building tools that help people leverage AI technology effectively.
@@ -68,7 +68,7 @@ export const AboutMe = () => {
       </div>
 
       <div className="text-center space-y-4">
-        <h3 className="text-2xl font-semibold">Support This Project</h3>
+        <h3 className="text-2xl font-semibold text-white">Support This Project</h3>
         <p className="text-white/80">
           If you find this tool helpful, consider supporting its development.
         </p>
