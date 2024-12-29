@@ -74,7 +74,7 @@ export const AboutMe = () => {
         </p>
         <Button 
           className="bg-[#0070BA] hover:bg-[#003087] transition-colors text-white"
-          onClick={() => window.open('https://paypal.me/yourusername', '_blank')}
+          onClick={() => window.open('https://www.paypal.com/paypalme/apktec', '_blank')}
         >
           <CreditCard className="mr-2 h-4 w-4 text-white" />
           Support via PayPal
