@@ -129,7 +129,7 @@ export const PromptGenerator = () => {
       {generatedPrompt && (
         <div className="mt-8 space-y-4">
           <div className="p-4 bg-white/5 rounded-lg border">
-            <pre className="whitespace-pre-wrap">{generatedPrompt}</pre>
+            <pre className="whitespace-pre-wrap text-white">{generatedPrompt}</pre>
           </div>
           <Button onClick={copyToClipboard} variant="secondary" className="w-full">
             Copy to Clipboard
